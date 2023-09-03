@@ -1,0 +1,18 @@
+/* Dentro do seu arquivo CSS */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Kurale&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredericka+the+Great&family=Kurale&family=Lobster&display=swap');
+
+:root {
+    --font-main: Ubuntu, sans-serif;
+    --font-emphasis: 'Bungee Inline', cursive;
+    --font-step: 'Kurale', serif;
+    --font-logo: 'Fredericka the Great', cursive;
+}
+
+/* 
+    font-family: var(--font-main);
+    font-family: var(--font-emphasis); 
+    font-family: var(--font-step);
+    font-family: var(--font-logo);
+    */
