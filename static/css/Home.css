@@ -162,7 +162,7 @@ input {
     z-index: 1;
     height: 100vh;
     max-height: 1080px;
-    background-image: url(/static/img/main-bg.jpg);
+    background-image: url(/static/img/banner-main.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -282,7 +282,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom right, #e82, #1eb);
+    background: linear-gradient(to bottom right, #1eb, #e82);
     opacity: 0.9;
     z-index: -1;
 }
