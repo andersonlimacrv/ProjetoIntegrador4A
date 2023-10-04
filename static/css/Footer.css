@@ -1,0 +1,20 @@
+.footer {
+    background: #75889b;
+    color: #ddd;
+    padding: 2rem;
+}
+
+.footer li {
+    line-height: 1.5;
+}
+
+.footer a {
+    color: #aaa;
+}
+
+.footer hr {
+    max-width: 1000px;
+    border: 0;
+    height: 1px;
+    background: #a2aebb;
+}
