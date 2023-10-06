@@ -18,3 +18,74 @@
     height: 1px;
     background: #a2aebb;
 }
+
+.row:after,
+.tab-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row,
+.tab-row {
+    display: block;
+}
+
+.tab-row {
+    display: table;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.main {
+    background: #f8f8f8;
+}
+
+.main .row,
+.main .tab-row {
+    min-height: 200px;
+}
+
+.main .row:before,
+.main .tab-row:before,
+.main .row:after,
+.main .tab-row:after {
+    content: '';
+    display: table;
+}
+
+.col-4,
+.col-6,
+.col-12 {
+    width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+
+    .col-4,
+    .col-6,
+    .col-12 {
+        float: left;
+    }
+}
+
+.tab-row>.col-4,
+.tab-row>.col-6,
+.tab-row>.col-12 {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    float: none;
+}
+
+@media screen and (min-width: 640px) {
+    .col-4 {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .col-6 {
+        width: 50%;
+    }
+}

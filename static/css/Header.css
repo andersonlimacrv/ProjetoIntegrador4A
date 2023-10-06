@@ -284,20 +284,6 @@ input {
     }
 }
 
-.pulse-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pulse {
-    color: red;
-    -webkit-animation: heart-beat 2s linear infinite;
-    -moz-animation: heart-beat 2s linear infinite;
-    -o-animation: heart-beat 2s linear infinite;
-    -ms-animation: heart-beat 2s linear infinite;
-    animation: heart-beat 2s linear infinite;
-}
 
 /* Customização IMDAZ */
 

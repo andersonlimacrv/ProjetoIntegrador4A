@@ -1,4 +1,4 @@
-//IIFE
+//HEADER
 (function () {
     "use strict";
     var menuId;
@@ -46,3 +46,45 @@
     document.addEventListener("DOMContentLoaded", init);
 
 })();
+
+// Animations
+
+let sections = document.querySelectorAll('section');
+const videoFramerSections = document.querySelectorAll('.video_content');
+
+window.onscroll = () => {
+    videoFramerSections.forEach(videoSection => {
+        let top = window.scrollY;
+        let offset = videoSection.offsetTop - 1000;
+        let height = videoSection.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+
+            playVideo();
+        }
+    });
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 500;
+        let height = sec.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+            sec.classList.add('show-animate');
+
+        }
+        else {
+            sec.classList.remove('show-animate');
+
+        }
+    })
+}
+
+
+function playVideo() {
+    var videoFrame = document.getElementById('videoFrame');
+    if (!videoFrame.hasAttribute('data-autoplayed')) {
+
+        videoFrame.src += "&autoplay=1";
+        videoFrame.setAttribute('data-autoplayed', 'true'); // Marca o vídeo como reproduzido
+    }
+}
