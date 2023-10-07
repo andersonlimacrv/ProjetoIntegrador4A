@@ -383,7 +383,7 @@ button.cta:hover {
     padding: 1rem 2rem;
     cursor:pointer;
     border-radius: 5px;
-    transition: all 0.3s;
+    transition: all 0.1s ease-in-out;
 }
 .btn_donation{
     width: 70%;

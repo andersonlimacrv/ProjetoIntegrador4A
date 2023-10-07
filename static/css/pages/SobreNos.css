@@ -5,7 +5,7 @@
 .first_content {
     position: relative;
     z-index: 1;
-    height: 40vh;
+    height: 20vh;
     background-image: url(/static/img/banner-main.png);
     background-size: cover;
     background-attachment: fixed;
@@ -25,4 +25,11 @@
     background: linear-gradient(to bottom right, #28e, #e14);
     opacity: 0.9;
     z-index: -1;
+}
+
+.description_P{
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: var(--font-step);
+    line-height: 1.5;
+    margin : 0 20%;
 }

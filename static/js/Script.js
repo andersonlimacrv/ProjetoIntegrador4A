@@ -49,7 +49,7 @@
 
 // Animations
 
-let sections = document.querySelectorAll('section');
+let sections = document.querySelectorAll('.section');
 const videoFramerSections = document.querySelectorAll('.video_content');
 
 window.onscroll = () => {
