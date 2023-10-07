@@ -1,6 +1,7 @@
 .main section {
     padding: 0;
     min-height: 70vh;
+    background-color: #F8F0D0;
 }
 .first_content {
     position: relative;
@@ -13,6 +14,7 @@
     color: #fff;
     width: 100%;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #F8F0D0;
 }
 
 .first_content:after {
@@ -25,4 +27,80 @@
     background: linear-gradient(to bottom right, #28e, #e14);
     opacity: 0.9;
     z-index: -1;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: var(--font-emphasis);
+    position:relative;
+}
+.marquee:hover .marquee__item {
+/*     animation-play-state: paused; */
+}
+.marquee__seperator {
+    margin: 0 2rem;
+}
+.marquee__item {
+    display: inline-block;
+    will-change: transform;
+    animation: marquee 25s linear infinite;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+   }
+    100% {
+        transform: translateX(-100%);
+   }
+}
+.marquee {
+    background: linear-gradient(to bottom right, #e14, #28e);
+    padding: 1rem 0;
+    color: #fff;
+}
+.image_content{
+    padding-top:5%;
+}
+
+.image_content, .dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-step);
+    z-index: 10;
+
+}
+.sec-6 .images img{
+    box-shadow:none!important;
+}
+
+.tittle_tittle_donationcard{
+    font-family: var(--font-emphasis)
+}
+table{
+    text-align: center;
+}
+
+.descr_form {
+    text-align: center;
+    max-width: 900px;
+}
+
+.donation_content{
+   background-image: url(/static/img/doarfazbem.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100%;
+   width: 100%;
+    position: fixed;
+    top:0;
+    opacity:0.2;
+
+}
+footer{
+    position:relative;
 }

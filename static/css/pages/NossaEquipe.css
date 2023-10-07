@@ -67,6 +67,15 @@
         overflow: hidden;
     }
 }
+.pad_top{
+    padding-top:3%;
+    padding-bottom: 1%;
+    font-size: 1.2rem;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .item {
     float: left;
     width: 60px;
@@ -268,5 +277,6 @@
     font-weight: bold;
     font-family: var(--font-emphasis);
 }
+
 
 
