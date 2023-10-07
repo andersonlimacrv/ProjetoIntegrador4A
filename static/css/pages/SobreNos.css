@@ -5,8 +5,8 @@
 .first_content {
     position: relative;
     z-index: 1;
-    height: 20vh;
-    background-image: url(/static/img/banner-main.png);
+    height: 15vh;
+    background-image: url(/static/img/banner2.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
