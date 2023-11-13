@@ -1,46 +1,49 @@
-# Projeto de Desenvolvimento da Landing Page para IMDAZ - Trabalho Voluntário de Caridade
+# IMDAZ Landing Page Development Project - Volunteer Charity Work
 
-Bem-vindo ao Repositório Oficial do Projeto de Desenvolvimento da Landing Page para a IMDAZ!
+Welcome to the Official Repository of the IMDAZ Landing Page Development Project!
 
-Este projeto tem como objetivo criar uma Landing Page sólida e atraente para a IMDAZ, uma instituição de caridade dedicada a causas nobres. A nossa missão é fornecer uma presença online impactante que não apenas represente os valores fundamentais da instituição, mas também sirva como um canal eficaz para conectar-se com o público e aumentar o engajamento voluntário.
+This project aims to create a robust and appealing landing page for IMDAZ, a charity institution dedicated to noble causes. Our mission is to provide a striking online presence that not only reflects the core values of the institution but also serves as an effective channel to connect with the audience and increase volunteer engagement.
 
-## Tecnologias Utilizadas
+🚀 Access the Live Site
+Experience the impact of our efforts by visiting the live site: IMDAZ Landing Page ➡️ https://andersonlimacrv.github.io/ProjetoIntegrador4A/
 
-O desenvolvimento desta Landing Page é impulsionado pelas seguintes tecnologias:
+## Technologies Used
 
-- **HTML:** Para estruturação semântica e organização do conteúdo.
-- **CSS:** Garantindo um design atraente, responsivo e alinhado com a identidade visual da IMDAZ.
-- **JavaScript:** Adicionando interatividade e dinamismo à página.
+The development of this landing page is driven by the following technologies:
 
-## Estrutura do Projeto
+- **HTML:** For semantic structuring and organization of content.
+- **CSS:** Ensuring an attractive, responsive design aligned with IMDAZ's visual identity.
+- **JavaScript:** Adding interactivity and dynamism to the page.
 
-O projeto está organizado de forma a proporcionar uma experiência de desenvolvimento clara e organizada. Aqui estão alguns destaques da estrutura:
+## Project Structure
 
-- 📁 **/assets:** Contém todos os recursos multimídia, como imagens e ícones.
-- 📁 **/css:** Arquivos de estilo CSS para garantir uma apresentação visual atraente.
-- 📁 **/js:** Scripts JavaScript para adicionar funcionalidades dinâmicas à página.
+The project is organized to provide a clear and organized development experience. Here are some highlights of the structure:
 
-## Como Contribuir
+- 📁 **/assets:** Contains all multimedia resources, such as images and icons.
+- 📁 **/css:** CSS style files to ensure an attractive visual presentation.
+- 📁 **/js:** JavaScript scripts to add dynamic functionality to the page.
 
-1. 🍴 Faça um Fork do repositório.
-2. 🔧 Crie uma nova branch com um nome descritivo: `git checkout -b feature/nova-feature`.
-3. ✔️ Faça suas contribuições.
-4. 📤 Envie as alterações: `git push origin feature/nova-feature`.
-5. 🤝 Abra um Pull Request para revisão.
+## How to Contribute
 
-## Contribuidores
+1. 🍴 Fork the repository.
+2. 🔧 Create a new branch with a descriptive name: `git checkout -b feature/new-feature`.
+3. ✔️ Make your contributions.
+4. 📤 Send the changes: `git push origin feature/new-feature`.
+5. 🤝 Open a Pull Request for review.
 
-Agradecemos imensamente a todos os incríveis voluntários que dedicaram seu tempo e talento para este projeto. Se você quiser se juntar a nós, sinta-se à vontade para explorar as [issues abertas](link-para-issues) e contribuir com suas habilidades únicas.
+## Contributors
 
-## Contato
+We greatly appreciate all the incredible volunteers who have dedicated their time and talent to this project. If you want to join us, feel free to explore the [open issues](link-to-issues) and contribute your unique skills.
 
-Para mais informações ou esclarecimentos, entre em contato conosco:
+## Contact
 
-- Email:institutodemenores@gmail.com
-- Site: [www.institutodemenores.wixsite.com/meusite](https://institutodemenores.wixsite.com/meusite)
+For more information or clarification, please contact us:
 
-## Agradecimentos
+- Email: institutodemenores@gmail.com
+- Website: [www.institutodemenores.wixsite.com/mywebsite](https://institutodemenores.wixsite.com/meusite)
 
-Agradecemos a você por considerar contribuir para este projeto significativo. Juntos, estamos construindo algo notável para causar impacto positivo no mundo!
+## Acknowledgments
 
-*Faça a diferença - Junte-se a nós!* 🌟
+Thank you for considering contributing to this meaningful project. Together, we are building something remarkable to make a positive impact on the world!
+
+*Make a difference - Join us!* 🌟
